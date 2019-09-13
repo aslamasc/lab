@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.MainViewController">
+   <center>
+      <Pane prefHeight="130.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="318.0" layoutY="2.0" text="Enter 8 digit" />
+            <ComboBox fx:id="n1" layoutX="10.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n2" layoutX="90.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n3" layoutX="170.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n4" layoutX="250.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n5" layoutX="330.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n6" layoutX="410.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n7" layoutX="490.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <ComboBox fx:id="n8" layoutX="570.0" layoutY="20.0" onAction="#comboBoxValueChanged" prefWidth="70.0" />
+            <Button fx:id="nextButton" layoutX="580.0" layoutY="80.0" onAction="#next" text="Next"  />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
